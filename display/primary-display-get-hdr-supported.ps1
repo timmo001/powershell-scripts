@@ -1,4 +1,4 @@
-Import-Module WindowsDisplayManager
+Get-Module -Name WindowsDisplayManager -ListAvailable | Import-Module
 
 $primaryDisplay = WindowsDisplayManager\GetPrimaryDisplay
 
