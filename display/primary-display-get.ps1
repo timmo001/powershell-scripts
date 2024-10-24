@@ -1,0 +1,3 @@
+Import-Module WindowsDisplayManager
+
+WindowsDisplayManager\GetPrimaryDisplay
